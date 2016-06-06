@@ -1,6 +1,6 @@
 # Template Oracle Database for Zabbix
 
-This software is MTI-licensed (https://opensource.org/licenses/MIT).
+This software is MIT-licensed (https://opensource.org/licenses/MIT).
 
 ## Setup Zabbix server
 
