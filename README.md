@@ -1,5 +1,7 @@
 # Template Oracle Database for Zabbix
 
+This software is MTI-licensed (https://opensource.org/licenses/MIT).
+
 ## Setup Zabbix server
 
 To import the template in Zabbix navigate to *Configuration -> Templates* and press *Import* button, find the file **zbx_export_templates.xml** and import. Select your Oracle host and click *Templates*, then link to the template and press *Update*. You will need to "discover" your Oracle instance with Zabbix to start collecting data from your Oracle host. Default discovery period for the template is 86400 (1 day). To make it faster navigate to your host and select *Discovery rules -> Template Oracle Database: Discover Oracle Instances*, and set *Update interval (in sec)* to 60 (one minute). As a result of the discovery process items, triggers, and graphs will be added to your Oracle host.
